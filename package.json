@@ -1,6 +1,6 @@
 {
   "name": "@wyre-technology/node-meraki",
-  "version": "0.0.0-semantically-released",
+  "version": "1.0.0",
   "description": "Node.js client library for the Cisco Meraki Dashboard API v1",
   "type": "module",
   "main": "./dist/index.cjs",

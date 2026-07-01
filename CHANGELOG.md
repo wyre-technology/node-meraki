@@ -1,3 +1,10 @@
+# 1.0.0 (2026-07-01)
+
+
+### Features
+
+* initial node-meraki SDK for the Cisco Meraki Dashboard API v1 ([3d8371f](https://github.com/wyre-technology/node-meraki/commit/3d8371f7f8e6b916cdd337b74a0626fabb76f0af))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
