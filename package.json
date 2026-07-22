@@ -49,7 +49,7 @@
   "homepage": "https://github.com/wyre-technology/node-meraki#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/git": "^11.0.0",
     "@semantic-release/github": "^12.0.6",
     "@semantic-release/npm": "^13.1.4",
     "@types/node": "^26.1.1",
