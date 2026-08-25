@@ -1,5 +1,5 @@
 {
-  "name": "@wyre-technology/node-meraki",
+  "name": "@wyre-ai/node-meraki",
   "version": "1.0.0",
   "description": "Node.js client library for the Cisco Meraki Dashboard API v1",
   "type": "module",
@@ -41,12 +41,12 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wyre-technology/node-meraki.git"
+    "url": "https://github.com/WYRE-AI/node-meraki.git"
   },
   "bugs": {
-    "url": "https://github.com/wyre-technology/node-meraki/issues"
+    "url": "https://github.com/WYRE-AI/node-meraki/issues"
   },
-  "homepage": "https://github.com/wyre-technology/node-meraki#readme",
+  "homepage": "https://github.com/WYRE-AI/node-meraki#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^7.0.0",
     "@semantic-release/git": "^11.0.1",
