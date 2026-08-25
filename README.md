@@ -1,4 +1,4 @@
-# @wyre-technology/node-meraki
+# @wyre-ai/node-meraki
 
 Node.js client library for the [Cisco Meraki Dashboard API v1](https://developer.cisco.com/meraki/api-v1/).
 
@@ -15,13 +15,13 @@ Node.js client library for the [Cisco Meraki Dashboard API v1](https://developer
 ## Installation
 
 ```bash
-npm install @wyre-technology/node-meraki
+npm install @wyre-ai/node-meraki
 ```
 
 ## Quick Start
 
 ```typescript
-import { MerakiClient } from '@wyre-technology/node-meraki';
+import { MerakiClient } from '@wyre-ai/node-meraki';
 
 const client = new MerakiClient({
   apiKey: process.env.MERAKI_API_KEY!,
@@ -57,7 +57,7 @@ for await (const network of client.networks.listAllByOrg('123456')) {
 }
 
 // Or drive any cursor endpoint yourself with the helpers
-import { fetchPage, paginate } from '@wyre-technology/node-meraki';
+import { fetchPage, paginate } from '@wyre-ai/node-meraki';
 ```
 
 ## Raw requests
@@ -93,7 +93,7 @@ import {
   ValidationError,
   RateLimitError,
   ServerError,
-} from '@wyre-technology/node-meraki';
+} from '@wyre-ai/node-meraki';
 
 try {
   await client.networks.get('N_missing');
